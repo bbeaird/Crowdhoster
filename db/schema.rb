@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131220221035) do
+ActiveRecord::Schema.define(:version => 20131227224458) do
 
   create_table "campaigns", :force => true do |t|
     t.string   "name"
@@ -138,6 +138,7 @@ ActiveRecord::Schema.define(:version => 20131220221035) do
     t.datetime "updated_at",                      :null => false
     t.boolean  "visible_flag",  :default => true, :null => false
     t.string   "image_url"
+    t.boolean  "collect_shipping_flag", :default => true
   end
 
   create_table "settings", :force => true do |t|
