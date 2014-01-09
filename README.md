@@ -58,7 +58,7 @@ $ rvm use 1.9.3 --default
 $ brew install imagemagick
 ```
 
-If you recently upgraded to OS X Mavericks (10.9) or got a new Mac computer and are having issues with the json gem during the bundle process, you may need to install the Command Line Developer Tools using the following command and clicking Install when prompted:
+* If you recently upgraded to OS X Mavericks (10.9) or got a new Mac computer and are having issues with the json gem during the bundle process, you may need to install the Command Line Developer Tools using the following command and clicking Install when prompted:
 
 ```
 $ xcode-select --install
